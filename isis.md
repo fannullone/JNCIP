@@ -4,3 +4,4 @@ Junos by default does not leak external IP reachability information from L1 to L
 
 # MSDP
 rfc3618
+MSDP peer with highest IP address listen on TCP port 639
