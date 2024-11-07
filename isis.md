@@ -7,10 +7,10 @@ rfc3618
 MSDP peer with highest IP address listen on TCP port 639
 
 # L3vpn
-rfc4364
-inet-vpn: AFI=1, SAFI=128
+rfc4364: BGP/MPLS IP Virtual Private Networks (VPNs)  
+rfc2858: Multiprotocol Extensions for BGP-4  
+rfc4577: OSPF as the Provider/Customer Edge Protocol for BGP/MPLS IP Virtual Private Networks (VPNs)  
+rfc2918; Route Refresh Capability for BGP-4
 
-# BGP
-rfc2858: BGP/MPLS IP Virtual Private Networks (VPNs)
-rfc4577: OSPF as the Provider/Customer Edge Protocol for BGP/MPLS IP Virtual Private Networks (VPNs)
+inet-vpn: AFI=1, SAFI=128
 
