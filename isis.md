@@ -12,5 +12,6 @@ rfc2858: Multiprotocol Extensions for BGP-4
 rfc4577: OSPF as the Provider/Customer Edge Protocol for BGP/MPLS IP Virtual Private Networks (VPNs)  
 rfc2918; Route Refresh Capability for BGP-4
 
-inet-vpn: AFI=1, SAFI=128
+inet-vpn: AFI=1 SAFI=128  
+route-target: AFI=1 SAFI=132
 
