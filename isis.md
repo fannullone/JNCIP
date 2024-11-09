@@ -10,8 +10,9 @@ MSDP peer with highest IP address listen on TCP port 639
 rfc4364: BGP/MPLS IP Virtual Private Networks (VPNs)  
 rfc2858: Multiprotocol Extensions for BGP-4  
 rfc4577: OSPF as the Provider/Customer Edge Protocol for BGP/MPLS IP Virtual Private Networks (VPNs)  
-rfc2918; Route Refresh Capability for BGP-4
+rfc2918; Route Refresh Capability for BGP-4  
+rfc3107: Carrying Label Information in BGP-4  
 
 inet-vpn: AFI=1 SAFI=128  
 route-target: AFI=1 SAFI=132
-
+inet-label-unicast: AFI=1 SAFI=4
